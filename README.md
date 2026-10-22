@@ -50,7 +50,7 @@ I enjoy building production-oriented web applications, intuitive dashboards, aut
 ### Databases & Tools
 
 <p>
-  <img src="https://skillicons.dev/icons?i=mysql,mongodb,redis,git,github,linux,vscode&theme=dark" alt="MySQL, MongoDB, Redis, Git, GitHub, Linux and VS Code"/>
+  <img src="https://skillicons.dev/icons?i=mysql,mongodb,firebase,supabase,postgresql,redis,git,github,linux,vscode&theme=dark" alt="MySQL, MongoDB, Redis, Git, GitHub, Linux and VS Code"/>
 </p>
 
 ---
