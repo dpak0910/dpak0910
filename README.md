@@ -94,7 +94,7 @@ I enjoy building production-oriented web applications, intuitive dashboards, aut
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/dpak0910/dpak0910/output/github-snake-dark.svg" width="100%" alt="Animated contribution snake"/>
+<img src="https://raw.githubusercontent.com/dpak0910/dpak0910/output/github-snake-dark-v2.svg" width="100%" alt="GitHub contribution snake"/>
 
 </div>
 
