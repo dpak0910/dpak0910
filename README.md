@@ -88,7 +88,7 @@ I enjoy building production-oriented web applications, intuitive dashboards, aut
 
 <div align="center">
 
-[![GitHub Trophies](https://github-profile-trophy-liard-delta.vercel.app/?username=dpak0910&theme=darkhub&no-frame=true&no-bg=true&column=4)](https://github.com/dpak0910)
+[![GitHub Trophies](https://trophygithubreadmelang.cybee.dpdns.org?username=dpak0910&theme=dark)](https://github.com/dpak0910)
 
 </div>
 
