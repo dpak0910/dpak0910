@@ -1,10 +1,11 @@
-
-name: Generate Contribution Snake
+name: Generate contribution snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: "0 */12 * * *"   # refresh every 12 hours
+  workflow_dispatch:          # lets you run it manually from the Actions tab
+  push:
+    branches: [main]
 
 permissions:
   contents: write
@@ -13,18 +14,18 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     timeout-minutes: 10
-
     steps:
-      - name: Generate snake animation
-        uses: Platane/snk@v3
+      # Draws the snake eating your contribution grid (cyan theme to match the README)
+      - uses: Platane/snk@v3
         with:
-          github_user_name: dpak0910
+          github_user_name: ${{ github.repository_owner }}
+          # Personal token so the snake can see your private contributions too
+          github_token: ${{ secrets.SNAKE_TOKEN }}
           outputs: |
-            dist/github-snake.svg?color_snake=%23A78BFA&color_dots=%230D1117%2316102A%233B2D65%236B4FA3%23A78BFA
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=%23A78BFA
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#161B22,#0E3A44,#0E6A7A,#14A3B8,#22D3EE
 
-      - name: Publish generated SVGs
-        uses: crazy-max/ghaction-github-pages@v4
+      # Publishes the SVG to a separate "output" branch, which the README links to
+      - uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
           build_dir: dist
