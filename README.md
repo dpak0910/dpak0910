@@ -78,13 +78,15 @@ I enjoy building production-oriented web applications, intuitive dashboards, aut
 
 ---
 
+
+## 📈 Contribution Activity
+
+[![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=dpak0910&bg_color=0D1117&color=C9D1D9&line=22D3EE&point=FFFFFF&area=true&hide_border=true)](https://github.com/dpak0910)
+
 ## 🏆 GitHub Achievements
 
-<div align="center">
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=dpak0910&theme=darkhub&no-frame=true&no-bg=true&column=4)](https://github.com/dpak0910)
 
-<img src="https://github-profile-trophy.vercel.app/?username=dpak0910&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=4" width="100%" alt="GitHub profile trophies"/>
-
-</div>
 
 ---
 
