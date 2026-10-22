@@ -72,16 +72,9 @@ I enjoy building production-oriented web applications, intuitive dashboards, aut
 
 <br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dpak0910&bg_color=0D1117&color=C9D1D9&line=A78BFA&point=FFFFFF&area=true&area_color=312E81&hide_border=true&custom_title=Contribution%20Activity" width="100%" alt="GitHub contribution activity graph"/>
-
 </div>
 
 ---
-
-
-## 📈 Contribution Activity
-
-[![Contribution Activity](https://github-readme-activity-graph.vercel.app/graph?username=dpak0910&bg_color=0D1117&color=C9D1D9&line=22D3EE&point=FFFFFF&area=true&hide_border=true)](https://github.com/dpak0910)
 
 
 ## 🏆 GitHub Achievements
